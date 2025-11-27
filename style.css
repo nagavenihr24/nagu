@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f3;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background: #0077b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background: #222;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a.active {
+    color: #00eaff;
+}
+
+/* Container Box */
+.container {
+    background: white;
+    width: 70%;
+    padding: 25px;
+    margin: 25px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Buttons on Home Page */
+.center {
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+    margin: 15px;
+    padding: 12px 25px;
+    background: #0077b6;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.btn:hover {
+    background: #023e8a;
+}
+
+/* Bio-data Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+/* Headings */
+h2 {
+    color: #0077b6;
+}
